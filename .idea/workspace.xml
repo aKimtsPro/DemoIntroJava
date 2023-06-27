@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: if, boucles, tableaux">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/algo/DemoCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/tableau/ExoPlateau.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: List et TODO">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/Voiture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/collection/ExoTodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/algo/DemoBoucles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/algo/DemoBoucles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/algo/DemoCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/algo/DemoCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,20 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2392886&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExoPlateau">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DemoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.algo.DemoCollections" />
+      <module name="DemoIntroJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoTableaux" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.algo.DemoTableaux" />
       <module name="DemoIntroJava" />
@@ -92,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExoPremiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.boucle.ExoPremiers" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.oo.Main" />
       <module name="DemoIntroJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.boucle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="be.tftic.webmobile.intro.exo.boucle.ExoCalculatrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.boucle.ExoCalculatrice" />
-      <module name="DemoIntroJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.boucle.*" />
+          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.oo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +121,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
+      <item itemvalue="Application.DemoCollections" />
       <item itemvalue="Application.ExoPlateau" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.DemoTableaux" />
       <item itemvalue="Application.ExoMoyenne" />
-      <item itemvalue="Application.ExoPremiers" />
-      <item itemvalue="Application.be.tftic.webmobile.intro.exo.boucle.ExoCalculatrice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DemoCollections" />
         <item itemvalue="Application.ExoPlateau" />
         <item itemvalue="Application.ExoMoyenne" />
         <item itemvalue="Application.DemoTableaux" />
-        <item itemvalue="Application.ExoPremiers" />
-        <item itemvalue="Application.be.tftic.webmobile.intro.exo.boucle.ExoCalculatrice" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +168,22 @@
       <option name="project" value="LOCAL" />
       <updated>1687849495767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Demo: List et TODO">
+      <option name="closed" value="true" />
+      <created>1687856292740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687856292740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="Demo: variables, types, operateurs, interaction" />
     <MESSAGE value="Demo: if, boucles, tableaux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: if, boucles, tableaux" />
+    <MESSAGE value="Demo: List et TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: List et TODO" />
   </component>
 </project>
