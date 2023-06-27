@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.exo.type;
+package be.tftic.webmobile.intro.exo.intro;
 
 import java.util.Scanner;
 
