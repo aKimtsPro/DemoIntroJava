@@ -53,5 +53,19 @@ public class DemoBoucles {
         }
 
 
+        // FOREACH
+        int[] ints = { 1, 2, 3 };
+        for (int entier : ints) {
+            entier++;
+            // entier est une variable.
+            // entier contient une copie des valeurs des cases du tableaux.
+            // Agir sur la variable entier n'a pas d'effet sur les cases du tableau.
+        }
+
+        for (int entier : ints) {
+            System.out.println(entier);
+        }
+        // 1, 2, 3
+
     }
 }
