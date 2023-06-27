@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.exo.conditionnel;
+package be.tftic.webmobile.intro.exo.algo.conditionnel;
 
 import java.util.Scanner;
 

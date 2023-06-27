@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.exo.tableau;
+package be.tftic.webmobile.intro.exo.algo.tableau;
 
 import java.util.Scanner;
 

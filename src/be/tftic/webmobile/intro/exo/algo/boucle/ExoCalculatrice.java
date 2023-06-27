@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.exo.boucle;
+package be.tftic.webmobile.intro.exo.algo.boucle;
 
 import java.util.Scanner;
 

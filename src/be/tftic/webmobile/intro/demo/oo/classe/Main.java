@@ -1,13 +1,17 @@
-package be.tftic.webmobile.intro.demo.oo;
+package be.tftic.webmobile.intro.demo.oo.classe;
 
 public class Main {
 
     public static void main(String[] args) {
 
         Voiture voiture1 = new Voiture();
-        Voiture voiture2 = new Voiture();
-
+        voiture1.immatriculation = "1-AAA-001";
+        voiture1.nbrPortes = 3;
         voiture1.couleur = "rouge";
+
+        Voiture voiture2 = new Voiture();
+        voiture2.immatriculation = "1-AAA-002";
+        voiture2.nbrPortes = 5;
         voiture2.couleur = "bleu";
 
         voiture1.rouler(1000, true);

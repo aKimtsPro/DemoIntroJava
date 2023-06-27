@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.exo.collection;
+package be.tftic.webmobile.intro.exo.algo.collection;
 
 import java.util.ArrayList;
 import java.util.Scanner;

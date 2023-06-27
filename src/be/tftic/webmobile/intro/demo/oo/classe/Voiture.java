@@ -1,4 +1,4 @@
-package be.tftic.webmobile.intro.demo.oo;
+package be.tftic.webmobile.intro.demo.oo.classe;
 
 public class Voiture {
 
@@ -7,6 +7,21 @@ public class Voiture {
     int nbrPortes;
     int kmParcourus;
 
+    // Voiture - rouler - /
+    void rouler() {
+        rouler(100, true);
+    }
+
+    // Voiture - rouler - int
+    void rouler(int distance) {
+        rouler(distance, true);
+    }
+
+    // Signature:
+    // - la classe ou l'interface définissant la méthode
+    // - le nom de la méthode
+    // - l'ordre/le type des paramètre
+    // Voiture - rouler - int,boolean
     void rouler(int distance, boolean affDistance){
         System.out.printf("this.couleur: %s\n", this.couleur);
 
@@ -17,6 +32,8 @@ public class Voiture {
         else
             System.out.println("Je roule");
     }
+
+
 
     Voiture comparer(Voiture aComparer){
         if(aComparer == null)
