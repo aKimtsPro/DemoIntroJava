@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: fix demo modif acces">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/Pilote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/Main.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/encaps/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/encaps/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/encaps/Sportif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RYLJPn5RNMwlbsQL1fmKqbgEKv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +51,7 @@
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.exo.oo.classe.Main">
+  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main">
     <configuration name="DemoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.algo.DemoCollections" />
       <module name="DemoIntroJava" />
@@ -65,19 +69,6 @@
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.intro.DemoVariable" />
       <module name="DemoIntroJava" />
       <option name="PROGRAM_PARAMETERS" value="salut" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExoMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.algo.tableau.ExoMoyenne" />
-      <module name="DemoIntroJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.algo.tableau.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,21 +112,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="be.tftic.webmobile.intro.exo.oo.encaps.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.encaps.Main" />
+      <module name="DemoIntroJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.encaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
+      <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
       <item itemvalue="Application.DemoCollections" />
       <item itemvalue="Application.ExoPlateau" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
-      <item itemvalue="Application.ExoMoyenne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DemoCollections" />
         <item itemvalue="Application.ExoPlateau" />
-        <item itemvalue="Application.ExoMoyenne" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688029444781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Demo: encapsulation">
+      <option name="closed" value="true" />
+      <created>1688033757125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688033757125</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +252,7 @@
     <MESSAGE value="Demo: modificateurs d'accès" />
     <MESSAGE value="Demo: git clone" />
     <MESSAGE value="Demo: fix demo modif acces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: fix demo modif acces" />
+    <MESSAGE value="Demo: encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: encapsulation" />
   </component>
 </project>
