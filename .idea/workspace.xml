@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Collection, classes, objets">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/constructeur/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/constructeur/Velo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Personne.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: constructeur + polymorphisme(surcharge)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classe/Voiture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/boucle/ExoCalculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/boucle/ExoCalculatrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/boucle/ExoPremiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/boucle/ExoPremiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/collection/ExoTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/collection/ExoTodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/conditionnel/ExoCalculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/conditionnel/ExoCalculatrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/intro/ExoInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/intro/ExoInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/intro/ExoOperateurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/intro/ExoOperateurs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/tableau/ExoMoyenne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/tableau/ExoMoyenne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/tableau/ExoPlateau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/algo/tableau/ExoPlateau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classe/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687871245867</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Demo: constructeur + polymorphisme(surcharge)">
+      <option name="closed" value="true" />
+      <created>1687877683315</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687877683315</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +199,7 @@
     <MESSAGE value="Demo: if, boucles, tableaux" />
     <MESSAGE value="Demo: List et TODO" />
     <MESSAGE value="Demo: Collection, classes, objets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: Collection, classes, objets" />
+    <MESSAGE value="Demo: constructeur + polymorphisme(surcharge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: constructeur + polymorphisme(surcharge)" />
   </component>
 </project>
