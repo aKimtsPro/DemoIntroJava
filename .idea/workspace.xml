@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Correction: surcharge">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/Voiture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/frontiere/Citadine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/encaps/frontiere/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: git clone" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688025517630</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Demo: modificateurs d'accès">
+      <option name="closed" value="true" />
+      <created>1688028585980</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688028585980</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Demo: git clone">
+      <option name="closed" value="true" />
+      <created>1688028889579</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688028889579</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +226,8 @@
     <MESSAGE value="Demo: Collection, classes, objets" />
     <MESSAGE value="Demo: constructeur + polymorphisme(surcharge)" />
     <MESSAGE value="Correction: surcharge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction: surcharge" />
+    <MESSAGE value="Demo: modificateurs d'accès" />
+    <MESSAGE value="Demo: git clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: git clone" />
   </component>
 </project>
