@@ -18,7 +18,7 @@ public class Main {
 //        System.out.println( ((Employe)pers2).getSalaire() ); // ClassCastException
 
         ArrayList<Personne> list = new ArrayList<>();
-        list.add( new Personne("luc", "dubois", 49) );
+//        list.add( new Personne("luc", "dubois", 49) ); // plus possible: la classe est abstraite
         list.add( pers );
 
         for (Personne personne : list) {
@@ -45,6 +45,18 @@ public class Main {
 
         System.out.println( m1 == m2 );         // false
         System.out.println( m1.equals(m2) );    // true
+
+
+
+        // CLASSE ABSTRAITE
+
+        System.out.println("--- CLASSE ABSTRAITE ---");
+        Personne p2 = new Employe("luc", "bus", 2500);
+        Personne p3 = new CEO("Marie", "Dubuisson", 40);
+        p2.travailler();
+        p3.travailler();
+
+
 
     }
 

@@ -6,4 +6,9 @@ public class Manager extends Employe {
         super("Boss", "Big", 255594);
     }
 
+    // Rédéfinition optionel: Employé a déjà redéfini la méthode sous forme 'concrète'
+//    @Override
+//    public void travailler() {
+//        super.travailler();
+//    }
 }

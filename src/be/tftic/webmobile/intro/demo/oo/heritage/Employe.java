@@ -9,7 +9,13 @@ public class Employe extends Personne {
         this.salaire = salaire;
     }
 
-     // Permet de produire une erreur de compilation si ce n'est pas une réécriture
+    // Redéfinition obligatoire: la méthode est héritée abstraite
+    @Override
+    public void travailler() {
+        System.out.println("pif pouf je travailles");
+    }
+
+    // Permet de produire une erreur de compilation si ce n'est pas une réécriture
     public String getSalutation(){
         return "Salut!";
     }

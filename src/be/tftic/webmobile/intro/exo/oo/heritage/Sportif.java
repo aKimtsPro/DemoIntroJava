@@ -1,10 +1,10 @@
-package be.tftic.webmobile.intro.exo.oo.encaps;
+package be.tftic.webmobile.intro.exo.oo.heritage;
 
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Random;
 
-public class Sportif {
+public abstract class Sportif {
 
     private String prenom;
     private String nom;
@@ -16,9 +16,7 @@ public class Sportif {
         this.setDateNaiss(anneeNaiss);
     }
 
-    public int performer(){
-        return new Random().nextInt(0,101);
-    }
+    public abstract int performer();
 
     public String getPrenom() {
         return prenom;
@@ -71,3 +69,4 @@ public class Sportif {
         return Objects.hash(prenom, nom, dateNaiss);
     }
 }
+

@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Heritage">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/utils/DemoRandom.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Random">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/CEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Cadre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/heritage/Basketteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/heritage/Cycliste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/heritage/Judoka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/heritage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/heritage/Sportif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Employe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/encaps/Sportif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/encaps/Sportif.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoRandom">
+  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main">
     <configuration name="DemoRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.utils.DemoRandom" />
       <module name="DemoIntroJava" />
@@ -70,19 +78,6 @@
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.intro.DemoVariable" />
       <module name="DemoIntroJava" />
       <option name="PROGRAM_PARAMETERS" value="salut" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.oo.classe.Main" />
-      <module name="DemoIntroJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.oo.classe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,21 +121,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="be.tftic.webmobile.intro.exo.oo.heritage.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.heritage.Main" />
+      <module name="DemoIntroJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.heritage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
       <item itemvalue="Application.DemoRandom" />
+      <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DemoRandom" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
+        <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
+        <item itemvalue="Application.DemoRandom" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688050949222</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Demo: Random">
+      <option name="closed" value="true" />
+      <created>1688371281969</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688371281969</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,6 +288,7 @@
     <MESSAGE value="Demo: encapsulation" />
     <MESSAGE value="Correction: Competition" />
     <MESSAGE value="Demo: Heritage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: Heritage" />
+    <MESSAGE value="Demo: Random" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: Random" />
   </component>
 </project>

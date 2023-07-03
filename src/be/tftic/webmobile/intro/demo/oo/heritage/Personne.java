@@ -1,6 +1,6 @@
 package be.tftic.webmobile.intro.demo.oo.heritage;
 
-public class Personne {
+public abstract class Personne {
 
     private String nom;
     private String prenom;
@@ -17,21 +17,10 @@ public class Personne {
         this.age = age;
     }
 
+    public abstract void travailler();
 
     public String getSalutation() {
         return "Bonjour!";
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if( !(obj instanceof Personne) )
-            return false;
-
-        Personne p = (Personne)obj;
-
-        return  p.prenom.equals(this.prenom) &&
-                p.nom.equals(this.nom) &&
-                p.age == this.age;
     }
 
     public String getNom() {
@@ -65,5 +54,17 @@ public class Personne {
                 ", prenom='" + prenom + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if( !(obj instanceof Personne) )
+            return false;
+
+        Personne p = (Personne)obj;
+
+        return  p.prenom.equals(this.prenom) &&
+                p.nom.equals(this.nom) &&
+                p.age == this.age;
     }
 }
