@@ -9,7 +9,7 @@ public class Employe extends Personne {
         this.salaire = salaire;
     }
 
-    @Override // Permet de produire une erreur de compilation si ce n'est pas une réécriture
+     // Permet de produire une erreur de compilation si ce n'est pas une réécriture
     public String getSalutation(){
         return "Salut!";
     }
@@ -20,5 +20,10 @@ public class Employe extends Personne {
 
     public void setSalaire(int salaire) {
         this.salaire = salaire;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

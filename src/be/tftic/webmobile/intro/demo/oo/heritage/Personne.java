@@ -23,11 +23,6 @@ public class Personne {
     }
 
     @Override
-    public String toString() {
-        return "Personne{nom:%s, prenom: %s, age: %d}".formatted(nom, prenom, age);
-    }
-
-    @Override
     public boolean equals(Object obj) {
         if( !(obj instanceof Personne) )
             return false;
@@ -61,5 +56,14 @@ public class Personne {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Personne{" +
+                "nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Correction: Competition">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Employe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Personne.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Heritage">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/utils/DemoRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/heritage/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,31 +34,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2392886&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.splitter.proportion": "0.2392886"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main">
-    <configuration name="DemoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.algo.DemoCollections" />
+  <component name="RunManager" selected="Application.DemoRandom">
+    <configuration name="DemoRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.utils.DemoRandom" />
       <module name="DemoIntroJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.algo.*" />
+          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
+      <item itemvalue="Application.DemoRandom" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
-      <item itemvalue="Application.DemoCollections" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoRandom" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.encaps.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.classe.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DemoCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688044706546</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Demo: Heritage">
+      <option name="closed" value="true" />
+      <created>1688050949222</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688050949222</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,6 +271,7 @@
     <MESSAGE value="Demo: fix demo modif acces" />
     <MESSAGE value="Demo: encapsulation" />
     <MESSAGE value="Correction: Competition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction: Competition" />
+    <MESSAGE value="Demo: Heritage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: Heritage" />
   </component>
 </project>
