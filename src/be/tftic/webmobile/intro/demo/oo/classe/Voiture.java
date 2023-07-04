@@ -7,12 +7,12 @@ public class Voiture {
     int nbrPortes;
     int kmParcourus;
 
-    // Voiture - rouler - /
+    // VehiculeMotorise - rouler - /
     void rouler() {
         rouler(100, true);
     }
 
-    // Voiture - rouler - int
+    // VehiculeMotorise - rouler - int
     void rouler(int distance) {
         rouler(distance, true);
     }
@@ -21,7 +21,7 @@ public class Voiture {
     // - la classe ou l'interface définissant la méthode
     // - le nom de la méthode
     // - l'ordre/le type des paramètre
-    // Voiture - rouler - int,boolean
+    // VehiculeMotorise - rouler - int,boolean
     void rouler(int distance, boolean affDistance){
         System.out.printf("this.couleur: %s\n", this.couleur);
 

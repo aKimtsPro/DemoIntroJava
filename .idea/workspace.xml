@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Interface&#10;Correctif: abstract">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Basketteur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Cycliste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Equipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Equipier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Judoka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Sportif.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Correctif: interface">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classebizzare/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classebizzare/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classebizzare/VehiculeMotorise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classe/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/classe/Voiture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688395528624</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Correctif: interface">
+      <option name="closed" value="true" />
+      <created>1688462607079</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688462607079</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,6 +312,7 @@
     <MESSAGE value="Demo: Random" />
     <MESSAGE value="Correction: Heritage&#10;Demo: Classe abstraite" />
     <MESSAGE value="Demo: Interface&#10;Correctif: abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: Interface&#10;Correctif: abstract" />
+    <MESSAGE value="Correctif: interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correctif: interface" />
   </component>
 </project>
