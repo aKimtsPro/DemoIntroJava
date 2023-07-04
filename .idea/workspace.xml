@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: classe interne, local, anonyme">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/enums/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/enums/TemperatureUnite.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: enum">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/enums/Boxeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/enums/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/enums/Sportif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,10 +55,11 @@
       <recent name="C:\Users\akimt\IdeaProjects\DemoIntroJava\src\be\tftic\webmobile\intro\exo\oo\interfaces" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.tftic.webmobile.intro.exo.oo.enums" />
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main">
+  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.exo.oo.enums.Main">
     <configuration name="DemoVariable" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.intro.DemoVariable" />
       <module name="DemoIntroJava" />
@@ -104,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="be.tftic.webmobile.intro.exo.oo.heritage.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.heritage.Main" />
+    <configuration name="be.tftic.webmobile.intro.exo.oo.enums.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.enums.Main" />
       <module name="DemoIntroJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.heritage.*" />
+          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,19 +135,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
+      <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.enums.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
-      <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.enums.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
-        <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688470704004</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Demo: enum">
+      <option name="closed" value="true" />
+      <created>1688472772052</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1688472772052</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,6 +340,7 @@
     <MESSAGE value="Demo: Interface&#10;Correctif: abstract" />
     <MESSAGE value="Correctif: interface" />
     <MESSAGE value="Demo: classe interne, local, anonyme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo: classe interne, local, anonyme" />
+    <MESSAGE value="Demo: enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: enum" />
   </component>
 </project>
