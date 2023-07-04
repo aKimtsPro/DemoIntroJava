@@ -9,8 +9,8 @@ public class Main {
         Moto m = Moto.blueWith("1-AAA-000");
         Moto m2 = new Moto("", "blue");
 
-        Moto.setNbrRoue(3);
-        Moto.setNbrRoue(2);
+        Moto.setNbrRoue(5);
+        System.out.println(Moto.getNbrRoue()); // ?
 
         // quelques méthodes et variables définies comme static:
         int a = Integer.parseInt("15");

@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Correction: Heritage&#10;Demo: Classe abstraite">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/IPlaner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/IRouler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/IVolant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/Oiseau.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/interfaces/Vehicule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classabstract/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classabstract/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classabstract/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classabstract/Zebre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/classabstract/Zoo.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: Interface&#10;Correctif: abstract">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Basketteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Cycliste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Equipier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Judoka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/interfaces/Sportif.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/statics/Moto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/akimt/IdeaProjects/DemoIntroJava/src/be/tftic/webmobile/intro/exo/oo/interfaces",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -60,24 +55,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\DemoIntroJava\src\be\tftic\webmobile\intro\exo\oo\interfaces" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main">
-    <configuration name="DemoRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.utils.DemoRandom" />
-      <module name="DemoIntroJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main">
     <configuration name="DemoVariable" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.intro.DemoVariable" />
       <module name="DemoIntroJava" />
@@ -138,9 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="be.tftic.webmobile.intro.exo.oo.interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
+      <module name="DemoIntroJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
-      <item itemvalue="Application.DemoRandom" />
+      <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
@@ -148,11 +146,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.heritage.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.heritage.Main" />
-        <item itemvalue="Application.DemoRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688379683536</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Demo: Interface&#10;Correctif: abstract">
+      <option name="closed" value="true" />
+      <created>1688395528624</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688395528624</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +308,7 @@
     <MESSAGE value="Demo: Heritage" />
     <MESSAGE value="Demo: Random" />
     <MESSAGE value="Correction: Heritage&#10;Demo: Classe abstraite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction: Heritage&#10;Demo: Classe abstraite" />
+    <MESSAGE value="Demo: Interface&#10;Correctif: abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: Interface&#10;Correctif: abstract" />
   </component>
 </project>

@@ -35,7 +35,7 @@ public class Moto {
     }
 
     public String getCouleur() {
-        return couleur;
+        return this.couleur;
     }
 
     public void setCouleur(String couleur) {
