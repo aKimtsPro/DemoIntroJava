@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Correction: enum">
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/exceptions/Entreprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/exceptions/HireCapacityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/exceptions/HireSalaryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/oo/exceptions/Main.java" afterDir="false" />
+    <list default="true" id="44966b44-91fd-44bd-8797-90b0af3b0cc4" name="Changes" comment="Demo: exception">
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/demo/utils/DemoCauseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/Boxeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/CompetitionAlreadyStartedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/CompetitionNotStartedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/Sportif.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/tftic/webmobile/intro/exo/oo/exceptions/TooFewParticipantsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/akimt/IdeaProjects/DemoIntroJava/src/be/tftic/webmobile/intro/exo/oo/interfaces",
+    "last_opened_file_path": "C:/Users/akimt/IdeaProjects/DemoIntroJava/src/be/tftic/webmobile/intro/exo/oo/exceptions",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -52,14 +56,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\DemoIntroJava\src\be\tftic\webmobile\intro\exo\oo\exceptions" />
       <recent name="C:\Users\akimt\IdeaProjects\DemoIntroJava\src\be\tftic\webmobile\intro\exo\oo\interfaces" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="be.tftic.webmobile.intro.exo.oo.exceptions" />
       <recent name="be.tftic.webmobile.intro.exo.oo.enums" />
       <recent name="be.tftic.webmobile.intro.demo.oo.encaps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.be.tftic.webmobile.intro.demo.oo.exceptions.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DemoCauseException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.utils.DemoCauseException" />
+      <module name="DemoIntroJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoVariable" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.intro.DemoVariable" />
       <module name="DemoIntroJava" />
@@ -69,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.classabstract.Main" />
+      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.exo.oo.exceptions.Main" />
       <module name="DemoIntroJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.classabstract.*" />
+          <option name="PATTERN" value="be.tftic.webmobile.intro.exo.oo.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="be.tftic.webmobile.intro.demo.oo.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="be.tftic.webmobile.intro.demo.oo.interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
-      <module name="DemoIntroJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.tftic.webmobile.intro.demo.oo.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +141,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoVariable" />
+      <item itemvalue="Application.DemoCauseException" />
       <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.exceptions.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.enums.Main" />
       <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
-      <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DemoCauseException" />
         <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.exceptions.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.enums.Main" />
         <item itemvalue="Application.be.tftic.webmobile.intro.exo.oo.interfaces.Main" />
-        <item itemvalue="Application.be.tftic.webmobile.intro.demo.oo.interfaces.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688476024139</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Demo: exception">
+      <option name="closed" value="true" />
+      <created>1688481933779</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688481933779</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -350,6 +364,7 @@
     <MESSAGE value="Demo: classe interne, local, anonyme" />
     <MESSAGE value="Demo: enum" />
     <MESSAGE value="Correction: enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction: enum" />
+    <MESSAGE value="Demo: exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo: exception" />
   </component>
 </project>
