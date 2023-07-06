@@ -13,6 +13,9 @@ public class DemoCauseException {
         catch (Exception e){
             throw new RuntimeException("Moins bizarre", e);
         }
+        finally {
+            System.out.println("Executé dans tous les cas");
+        }
     }
 
     public static void methodB(){
